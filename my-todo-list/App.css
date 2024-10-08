@@ -1,0 +1,17 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"] {
+    margin-bottom: 20px;
+  }
+  
