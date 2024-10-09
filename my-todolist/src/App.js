@@ -15,7 +15,7 @@ function App() {
   const [newDueDate, setNewDueDate] = useState('');
   const [activeItem, setActiveItem] = useState(null);
 
-  // Function to add a new todo item
+  
   const handleAddTodo = () => {
     if (newTitle && newDueDate) {
       setTodoItems([
@@ -27,7 +27,7 @@ function App() {
     }
   };
 
-  // Function to calculate the variant based on the due date
+  
   const getVariant = (dueDate) => {
     const daysLeft = (new Date(dueDate) - new Date()) / (1000 * 60 * 60 * 24);
     if (daysLeft < 2) return 'danger';
@@ -37,11 +37,11 @@ function App() {
   };
 
   return (
-    <Container className="container">
-      <h2>Assignment 2: Tejasree's ToDo List</h2>
+    <Container className="container my-4 mb-5">
+      <h2 className="text-center mb-4">Assignment 2: Tejasree's ToDo List</h2>
       <Row>
       <Col sm={4}>
-  <div className="todo-box"> {/* Apply a custom class for styling */}
+  <div className="todo-box"> { }
     <Form>
       <Form.Group controlId="formTitle">
         <Form.Label>ToDo Item</Form.Label>
@@ -62,7 +62,7 @@ function App() {
         />
       </Form.Group>
 
-      <div className="d-grid gap-2 mt-3"> {/* Ensure the button spans the full width */}
+      <div className="d-grid gap-2 mt-3"> { }
         <Button variant="primary" onClick={handleAddTodo} className="text-center">
           Add ToDo
         </Button>
