@@ -1,3 +1,26 @@
 body {
   padding: 20px;
+  background-color: #f8f9fa; /* Optional: light background */
+}
+
+/* Container styling */
+.container {
+  
+  align-items: center; /* Horizontally center the content */
+  justify-content: center; 
+  
+}
+
+.todo-box {
+  background-color: #72e253; /* Green background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a light shadow for aesthetics */
+}
+
+button.text-center {
+  
+  text-align: center;
+  display: block;
+  width: 100%; /* Make the button full-width */
 }
