@@ -3,10 +3,10 @@ import { Container, Row, Col, Form, Button, ListGroup, Tab } from 'react-bootstr
 import './App.css';
 
 const staticTodoItems = [
-  { title: 'Todo 1', description: `Hello There! If you're reading this, you've successfully completed most of your assignment.`, dueDate: '2024-04-03' },
-  { title: 'Todo 2', description: `Hello. This is another task you need to do. Good luck with it.`, dueDate: '2024-04-06' },
-  { title: 'Todo 3', description: `Hello There! Its me again. Task 3 Awaiting`, dueDate: '2024-04-09' },
-  { title: 'Todo 4', description: `Okay Bye, It was fun. See ya. `, dueDate: '2024-04-11' },
+  { title: 'Todo 1', description: `Hello There! If you're reading this, you've successfully completed most of your assignment.`, dueDate: '2024-10-16' },
+  { title: 'Todo 2', description: `Hello. This is another task you need to do. Good luck with it.`, dueDate: '2024-10-13' },
+  { title: 'Todo 3', description: `Hello There! Its me again. Task 3 Awaiting`, dueDate: '2024-10-11' },
+  { title: 'Todo 4', description: `Okay Bye, It was fun. See ya. `, dueDate: '2024-11-04' },
 ];
 
 function App() {
